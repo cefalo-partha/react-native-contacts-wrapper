@@ -14,12 +14,6 @@ import java.util.List;
  * Created by oliverjacobs on 14/06/16.
  */
 public class ContactsWrapperPackage implements ReactPackage {
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
-
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
